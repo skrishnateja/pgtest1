@@ -3,6 +3,7 @@ var serviceURL = "http://skrishnateja.xyz/phonegaptest/services/";
 var employees;
 
 $('#employeeListPage').bind('pageinit', function(event) {
+	$('#title').html("loading");
 	getEmployeeList();
 });
 
